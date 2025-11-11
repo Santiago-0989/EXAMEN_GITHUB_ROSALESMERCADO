@@ -6,30 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Inicio - Cultura y Deportes</title>
     <link rel="stylesheet" href="../estilo/style.css">
-    
 </head>
 <body>
-    <main>
-        <h1>Bienvenido</h1>
-        <p class="highlight">Explora las secciones de Cultura y Deportes desde los enlaces abajo.</p>
+    <header class="site-header">
+        <h1 class="logo">Cultura & Deportes</h1>
+        <p class="lead">Explora las secciones desde el menú</p>
+    </header>
 
-        <nav>
-            <ul>
-                <li>
-                    <p>HERNANDEZ ROSALES SANTIAGO</p>
-                    <a href="cutua1.html">Ir a Cultura</a>
-                </li>
-                <li>
-                    <p>MERCADO CRUZ ANGELICA</p>
-                    <a href="deporte1.html">Ir a Deportes</a>
-                </li>
-            </ul>
+    <main class="container">
+        <section class="intro">
+            <h2>Bienvenido</h2>
+            <p class="highlight">Descubre contenido sobre Cultura y Deportes. Haz clic en las tarjetas para ir a cada sección.</p>
+        </section>
+
+        <nav class="menu-grid" aria-label="Menú principal">
+            <article class="card">
+                <p class="author">HERNANDEZ ROSALES SANTIAGO</p>
+                <a class="btn" href="cutua1.html">Ir a Cultura</a>
+            </article>
+
+            <article class="card">
+                <p class="author">MERCADO CRUZ ANGELICA</p>
+                <a class="btn" href="deporte1.html">Ir a Deportes</a>
+            </article>
         </nav>
 
         <hr>
-        <h2>Acerca del sitio</h2>
-        <p>Este sitio contiene ejemplos de páginas sobre cultura y deportes, con contenido y recursos enlazados para explorar más.</p>
+
+        <section class="about">
+            <h3>Acerca del sitio</h3>
+            <p>Este sitio contiene ejemplos de páginas sobre cultura y deportes, con contenido y recursos enlazados para explorar más.</p>
+        </section>
     </main>
+
+    <footer class="site-footer">
+        <p>© 2025 — <a class="back-link" href="index.html">Volver al menú</a></p>
+    </footer>
 </body>
 </html>
-
